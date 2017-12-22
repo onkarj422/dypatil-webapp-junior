@@ -1,0 +1,69 @@
+.spacing {
+	flex: auto;
+}
+
+.router-outlet {
+	padding-left: 120px;
+	padding-right: 120px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.logo {
+	margin-right: 15px;
+}
+
+.mat-subheading-2 {
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.mat-display-4 {
+	font-size:40px;
+}
+
+.mat-subheading-1 {
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.toolbar-tabs {
+	position: relative;
+   	z-index: 2;
+   	background: #212121;
+}
+
+.flex-container-header.mat-elevation-z5 {
+  	display: flex;
+  	justify-content: center;
+  	flex-direction: row;
+}
+
+.flex-container-tabs {
+	display: flex;
+	flex-direction: row;
+}
+
+#tab-buttons {
+	color: #FFFFFF;
+	height: 70%;
+	text-transform: uppercase;
+}
+
+a.active {
+	background: #000000;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	background: #212121;
+	height: 150px;
+}
