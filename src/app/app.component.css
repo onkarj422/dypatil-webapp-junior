@@ -87,4 +87,5 @@ a.active {
     width: 100%;
 	background: #212121;
 	height: 150px;
+	display: flex;
 }

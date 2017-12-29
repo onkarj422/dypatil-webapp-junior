@@ -13,7 +13,7 @@
 }
 
 .mat-title {
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .aboutclgimg {
@@ -60,6 +60,7 @@
     opacity: 0.5;
     z-index: 2;
     text-align: center;
+    height: 10px;
 }
 
 #content-list-item {
@@ -85,3 +86,16 @@ a:hover {
 	display: flex;
 	flex-direction: row;
 }
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+

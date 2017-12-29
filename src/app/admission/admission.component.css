@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.mat-body-1 {
+	line-height: 1.7;
+}
+
+.mat-display-3 {
+	font-weight: lighter;
+	margin-bottom: 5px;
+	line-height: 70px;
+}
+
+.mat-title {
+	font-weight: 700;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}

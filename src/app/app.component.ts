@@ -19,6 +19,8 @@ export class AppComponent implements OnInit {
           this.setTitle("ACADEMICS");
         } else if (event.url == "/contact") {
           this.setTitle("REACH US");
+        } else if (event.url == "/admission") {
+          this.setTitle("ADMISSION");
         }
       }
     });
