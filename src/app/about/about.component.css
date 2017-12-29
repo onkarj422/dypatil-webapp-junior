@@ -50,19 +50,6 @@
 	z-index: 1;
 }
 
-.text-block {
-    position: absolute;
-    background-color: black;
-    color: white;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    opacity: 0.5;
-    z-index: 2;
-    text-align: center;
-    height: 10px;
-}
-
 #content-list-item {
 	font-size: 13px; 
 	line-height: 1.7;
@@ -97,5 +84,28 @@ th, td {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
+}
+
+.photo-container-row {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	position: relative;
+}
+
+.photo-container {
+	position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-block {
+	width: 100%;
+	background: black;
+	opacity: 0.5;
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 

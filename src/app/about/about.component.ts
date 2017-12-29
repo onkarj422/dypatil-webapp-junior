@@ -20,6 +20,9 @@ export class AboutComponent {
     } else if (name == "infrastructure") {
       e = <HTMLElement>document.getElementById("infrastructure");
       e.scrollIntoView();
+    } else if (name == "activities") {
+      e = <HTMLElement>document.getElementById("activities");
+      e.scrollIntoView();
     }       
   }
 }
