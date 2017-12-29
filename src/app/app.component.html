@@ -4,16 +4,19 @@
 		<a id="tab-buttons" routerLink="/about" routerLinkActive="active" mat-button>About Us</a>
 		<a id="tab-buttons" routerLink="/academics" routerLinkActive="active" mat-button>Academics</a>
 		<button id="tab-buttons" mat-button>Admissions</button>
-		<button id="tab-buttons" mat-button>Exams</button>
+		<a id="tab-buttons" routerLink="/contact" routerLinkActive="active" mat-button>Reach Us</a>
 	</span>
 </mat-toolbar>
-<mat-toolbar class="flex-container-header mat-elevation-z5" color="primary" style="height:200px;">
+<mat-toolbar class="toolbar-header mat-elevation-z4" style="height:120px;">
 	<img class="logo" src="./assets/logo.png">
-	<div class="title">
-		<h3 class="mat-subheading-2">SHIKSHAN MAHARSHI DR. D.Y. PATIL SHIKSHAN SANSTHA'S</h3>
-		<h1 class="mat-display-4">DR. D. Y. PATIL SENIOR COLLEGE</h1>
-		<h4 class="mat-subheading-1">Affiliated to Savitribai Phule Pune University, Approved by AICTE, New Delhi, DTE and Goverment of Maharashtra</h4>
+	<div class="title-container">
+		<h3 class="mat-subheading-2" id="website-title">SHIKSHAN MAHARSHI DR. D.Y. PATIL SHIKSHAN SANSTHA'S</h3>
+		<h1 class="mat-display-4" id="website-title">DR. D. Y. PATIL ARTS, COMMERCE & SCIENCE COLLEGE</h1>
+		<h4 class="mat-subheading-1" id="website-title">Affiliated to Savitribai Phule Pune University, Approved by AICTE, New Delhi, DTE and Goverment of Maharashtra</h4>
 	</div>
+</mat-toolbar>
+<mat-toolbar class="toolbar-tab-title">
+	<h1 class="mat-display-3 tab-title">{{componentName}}</h1>
 </mat-toolbar>
 <div class="router-outlet">
     <router-outlet></router-outlet>

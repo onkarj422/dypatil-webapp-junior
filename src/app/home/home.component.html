@@ -1,10 +1,73 @@
-<mat-card class="slideshow-container">
-	<div class="slides">
+<div class="image-gallery-container">
+	<ngx-gallery class="image-gallery" [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+</div>
+
+<div class="banner-card-container">
+	<div class="banner-container" style="bottom: 0;">
+	<mat-card class="banner" id="commerce" style="margin-bottom: 5px;">	
+		<div class="text-block">
+			<p class="mat-title">"Commerce is a trial to predict the future."</p>
+		</div>
+		<img class="eco-img" src="./assets/economics.png">
+	</mat-card>
+
+	<mat-card class="banner" id="bca" style="margin-bottom: 5px;">
+		<div class="text-block">
+			<p class="mat-title">"Computer technology is so built into our lives that it is a part of the surrounding of every artist."</p>
+			<p class="mat-title">-Edsger Dijkshtra</p>
+		</div>
+		<img class="eco-img" src="./assets/computer-appai.png">
+	</mat-card>
+
+	<mat-card class="banner" id="bcs">	
+		<div class="text-block">
+			<p class="mat-title">"Computer science is no more about computers than astronomy is about telescopes."</p>
+			<p class="mat-title">-Edsger Dijkshtra</p>
+		</div>
+		<img class="eco-img" src="./assets/computer-grad.png">
+	</mat-card>
 	</div>
+	<mat-card class="features-card">
+		<div class="divider"></div>
+		<mat-list role="list">
+ 			<mat-list-item role="listitem" style="font-weight: normal">Highly qualified and experienced teaching staff</mat-list-item>
+ 			<mat-divider></mat-divider>
+ 			<mat-list-item role="listitem" style="font-weight: normal">Well equipped library and laboratories</mat-list-item>
+ 			<mat-divider></mat-divider>
+ 			<mat-list-item role="listitem" style="font-weight: normal">Personal Attention</mat-list-item>
+ 			<mat-divider></mat-divider>
+ 			<mat-list-item role="listitem" style="font-weight: normal">Placement cell department</mat-list-item>
+ 			<mat-divider></mat-divider>
+ 			<mat-list-item role="listitem" style="font-weight: normal">Situated on Corporation bus route</mat-list-item>
+ 			<mat-divider></mat-divider>
+ 			<mat-list-item role="listitem" style="font-weight: normal">Fees as per University of Pune rule</mat-list-item>
+		</mat-list>
+		<div class="divider" style="margin-top: 100px;"></div>
+	</mat-card>
+</div>
+
+<mat-card style="margin-bottom: 10px; background-color: #ADD8E6 !important;">
+	<mat-card-header>
+		<mat-card-title style="font-size: 24px;">Courses Offered</mat-card-title>
+	</mat-card-header>
+	<div class="divider"></div>
+	<mat-list role="list">
+ 		<mat-list-item class="mat-body-1" role="listitem" style="font-weight: normal">11th Science & Commerce with IT</mat-list-item>
+ 		<mat-list-item class="mat-body-1" role="listitem" style="font-weight: normal">Vocational Subject Bifocal (Computer Science)</mat-list-item>
+ 		<mat-divider></mat-divider>
+ 		<p class="mat-body-1" style="color: #00BCD4;"><b>Affiliated to University of Pune</b></p>
+ 		<mat-list-item class="mat-body-1" role="listitem" style="font-weight: normal">F.Y.B.A.</mat-list-item>
+ 		<mat-list-item class="mat-body-1" role="listitem" style="font-weight: normal">F.Y.B.Com</mat-list-item>
+ 		<mat-list-item class="mat-body-1" role="listitem" style="font-weight: normal">F.Y.B.Sc (Computer Science)(B.C.S)</mat-list-item>
+ 		<mat-list-item class="mat-body-1" role="listitem" style="font-weight: normal">F.Y.B.C.A</mat-list-item>
+ 		<mat-list-item class="mat-body-1" role="listitem" style="font-weight: normal">D.Ed (Marathi Medium)</mat-list-item>
+ 		<mat-list-item class="mat-body-1" role="listitem" style="font-weight: normal">M.B.A.</mat-list-item>
+	</mat-list>
 </mat-card>
 
 <div class="cards-container">
 	<mat-card class="card-items" style="margin-right:7.5px;">
+		<div class="divider"></div>
 		<div>
 			<span style="float:left;"><img class="img" src="./assets/messg1.jpg"></span>
 			<p class="mat-body-1"><b>Mrs. Kusum B. Kotkar,</b> Chairman, Shikshan Maharshi Dr. D.Y. Patil Shikshan Sanstha</p>
@@ -13,6 +76,7 @@
 		</div>
 	</mat-card>
 	<mat-card class="card-items" style="margin-left:7.5px;">
+		<div class="divider"></div>
 		<div>
 			<span style="float:left;"><img class="img" src="./assets/messg2.jpg"></span>
 			<p class="mat-body-1"><b>Shri. Abhay B. Kotkar,</b> Vice President, Shikshan Maharshi Dr. D.Y. Patil Shikshan Sanstha</p>
@@ -20,4 +84,5 @@
 		</div>
 	</mat-card>
 </div>
+
 	

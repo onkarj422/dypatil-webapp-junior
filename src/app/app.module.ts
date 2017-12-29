@@ -8,20 +8,27 @@ import { routes } from './app.routes';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { AcademicsComponent } from './academics/academics.component';
-
+import { NgxGalleryModule } from 'ngx-gallery';
+import { ContactComponent } from './contact/contact.component';
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    AcademicsComponent
+    AcademicsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppMaterialModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    NgxGalleryModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyARiZMGTkY--D6GzAL4RaT3ChMaqylcBlY'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

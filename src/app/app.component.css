@@ -3,14 +3,18 @@
 }
 
 .router-outlet {
-	padding-left: 120px;
-	padding-right: 120px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 10px;
 }
 
 .logo {
 	margin-right: 15px;
+}
+
+#website-title {
+	color: #000000;
+	opacity: 0.9;
 }
 
 .mat-subheading-2 {
@@ -20,6 +24,7 @@
 
 .mat-display-4 {
 	font-size:40px;
+	font-weight: lighter;
 }
 
 .mat-subheading-1 {
@@ -27,22 +32,32 @@
 	font-size: 15px;
 }
 
-.title {
+.title-container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
 .toolbar-tabs {
+	overflow: hidden;
 	position: relative;
-   	z-index: 2;
+	z-index: 2;
    	background: #212121;
 }
 
-.flex-container-header.mat-elevation-z5 {
+.toolbar-header {
+	position: relative;
+   	z-index: 1;
   	display: flex;
-  	justify-content: center;
+  	justify-content: left;
   	flex-direction: row;
+  	background: #F5F5F5;
+}
+
+.toolbar-tab-title {
+	position: relative;
+   	z-index: 0;   	
+  	background: #ADD8E6;
 }
 
 .flex-container-tabs {
@@ -58,6 +73,12 @@
 
 a.active {
 	background: #000000;
+}
+
+.tab-title {
+	color: black;
+	font-size: 24px;
+	font-weight: lighter;
 }
 
 .footer {

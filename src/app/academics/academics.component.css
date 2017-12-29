@@ -1,0 +1,42 @@
+.mat-title {
+	font-weight: bold;
+}
+
+ ::ng-deep .mat-expansion-panel-body {
+	margin: 0 24px 16px;
+	overflow: auto;
+}
+
+.mat-body-1 {
+	line-height: 1.7;
+}
+
+.mat-display-3 {
+	font-weight: lighter;
+	margin-bottom: 5px;
+	line-height: 70px;
+}
+
+.course-content-container {
+	display:flex;
+	flex-direction: row;
+}
+
+.mat-card-title {
+	font-size: 16px;
+}
+
+a {
+	color: #737373 !important;
+	cursor: pointer;
+}
+
+a:link {
+	color: #00BCD4 !important;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #00BCD4 !important;
+}
+

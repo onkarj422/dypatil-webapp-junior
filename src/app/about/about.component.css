@@ -1,0 +1,87 @@
+.section-seperator {
+	height: 40px;
+}
+
+.mat-display-3 {
+	font-weight: lighter;
+	margin-bottom: 5px;
+	line-height: 70px;
+}
+
+.mat-body-1 {
+	font-size: 16px;
+}
+
+.mat-title {
+	font-weight: bold;
+}
+
+.aboutclgimg {
+	width: 50%;
+	height: 50%;
+}
+
+.principaldeskimg {
+	width:30%;
+	height: 30%;
+	float: right;
+}
+
+.flex-box {
+	display: flex;
+	flex-direction: row;
+}
+
+.img-container {
+	width:80%;
+	height:80%;
+	object-fit: cover;
+	background-color: #ADD8E6;
+	opacity: 0.5;
+	position: absolute;
+	z-index: auto;
+}
+
+.as-img {
+	width:100%;
+	height:100%;
+	object-fit: contain;
+	position: absolute;
+	z-index: 1;
+}
+
+.text-block {
+    position: absolute;
+    background-color: black;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 2;
+    text-align: center;
+}
+
+#content-list-item {
+	font-size: 13px; 
+	line-height: 1.7;
+}
+
+a {
+	color: #737373 !important;
+	cursor: pointer;
+}
+
+a:link {
+	color: #00BCD4 !important;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #00BCD4 !important;
+}
+
+.infratable {
+	display: flex;
+	flex-direction: row;
+}

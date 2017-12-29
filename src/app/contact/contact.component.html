@@ -1,0 +1,30 @@
+<div class="doc-container">
+	<div class="doc-content">
+		<h1 class="mat-display-3">Contact Details</h1>
+		<div class="divider"></div>
+		<mat-card>
+			<mat-card-content>
+				<div class="divider"></div>
+				<div class="contact-card-container">
+					<img style="margin-bottom: 5px; height: 80px; width: 200px;" src="./assets/logo.png">
+					<img style="margin-bottom: 10px; height: 200px; width: 200px;" src="./assets/aboutclgimg.jpg">
+					<mat-list-item class="mat-body"><b>Address :</b> Shaunagar, Chinchwad MIDC, Pune - 19</mat-list-item>
+					<mat-list-item class="mat-body"><b style="font-weight: 700;">Phone :</b> 02027490299 / 27494970</mat-list-item>
+					<mat-list-item class="mat-body"><b style="font-weight: 700;">Website :</b> <a href="http://dypatilsanstha.com">www.dypatilsanstha.com</a></mat-list-item>
+					<mat-list-item class="mat-body"><b style="font-weight: 700;">E-mail :</b> <a href="http://info@dypatilsanstha.com">info@dypatilsanstha.com</a></mat-list-item>
+				</div>
+				<div class="divider"></div>
+			</mat-card-content>
+		</mat-card>
+		<div class="section-seperator"></div>
+		<h1 class="mat-display-3">Location</h1>
+		<div class="divider"></div>
+		<mat-card style="margin-bottom: 20px;">
+			<mat-card-content>
+				<agm-map [latitude]="lat" [longitude]="lng">
+  					<agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+				</agm-map>
+			</mat-card-content>
+		</mat-card>
+	</div>
+</div>
