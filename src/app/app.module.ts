@@ -11,6 +11,7 @@ import { AcademicsComponent } from './academics/academics.component';
 import { NgxGalleryModule } from 'ngx-gallery';
 import { ContactComponent } from './contact/contact.component';
 import { AgmCoreModule } from '@agm/core';
+import { AdmissionComponent } from './admission/admission.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AgmCoreModule } from '@agm/core';
     HomeComponent,
     AboutComponent,
     AcademicsComponent,
-    ContactComponent
+    ContactComponent,
+    AdmissionComponent
   ],
   imports: [
     BrowserModule,
