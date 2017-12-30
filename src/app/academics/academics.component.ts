@@ -17,14 +17,14 @@ export class AcademicsComponent implements OnInit {
 
   scrollTo(name: string) {
     let e;
-    if (name == "bcom") {
-      e = <HTMLElement>document.getElementById("bcom");
+    if (name == "science") {
+      e = <HTMLElement>document.getElementById("science");
       e.scrollIntoView();
-    } else if (name == "bsc") {
-      e = <HTMLElement>document.getElementById("bsc");
+    } else if (name == "commerce") {
+      e = <HTMLElement>document.getElementById("commerce");
       e.scrollIntoView();
-    } else if (name == "bca") {
-      e = <HTMLElement>document.getElementById("bca");
+    } else if (name == "arts") {
+      e = <HTMLElement>document.getElementById("arts");
       e.scrollIntoView();
     }     
   }  

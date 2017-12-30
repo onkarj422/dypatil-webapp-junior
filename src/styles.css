@@ -12,6 +12,10 @@ html, body {
 	line-height: 70px;
 }
 
+.mat-title {
+	font-weight: 700;
+}
+
 .mat-body-1 {
 	text-align: justify;
 	font-weight: lighter;

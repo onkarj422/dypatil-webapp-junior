@@ -67,7 +67,7 @@ body {
   	margin-left:auto;
 }
 
-.mat-title {
+.banner-title {
 	font-size: 17px;
 	font-weight: lighter;
 	color: white;
@@ -93,4 +93,13 @@ body {
 
 .mat-card-title {
 	font-size: 16px;
+}
+
+.inspiration-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.mat-title {
+	font-weight: 700;
 }

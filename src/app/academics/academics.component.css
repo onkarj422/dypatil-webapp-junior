@@ -1,5 +1,5 @@
 .mat-title {
-	font-weight: bold;
+	font-weight: 700;
 }
 
  ::ng-deep .mat-expansion-panel-body {
@@ -26,6 +26,10 @@
 	font-size: 16px;
 }
 
+.section-seperator {
+	height: 40px;
+}
+
 a {
 	color: #737373 !important;
 	cursor: pointer;
@@ -38,5 +42,16 @@ a:link {
 a:hover {
 	text-decoration: none;
 	color: #00BCD4 !important;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
 }
 
