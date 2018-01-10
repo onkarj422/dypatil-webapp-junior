@@ -4,15 +4,15 @@ import { Component, OnInit, ElementRef } from '@angular/core';
   selector: 'app-academics',
   templateUrl: './academics.component.html',
   styleUrls: ['./academics.component.css']
-})  
+})
 export class AcademicsComponent implements OnInit {
-  
+
   constructor() {
-    
-   }
+
+  }
 
   ngOnInit() {
-    
+
   }
 
   scrollTo(name: string) {
@@ -26,7 +26,6 @@ export class AcademicsComponent implements OnInit {
     } else if (name == "arts") {
       e = <HTMLElement>document.getElementById("arts");
       e.scrollIntoView();
-    }     
-  }  
+    }
+  }
 }
-

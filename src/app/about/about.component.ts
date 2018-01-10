@@ -16,13 +16,13 @@ export class AboutComponent {
       e.scrollIntoView();
     } else if (name == "about-college") {
       e = <HTMLElement>document.getElementById("about-college");
-      e.scrollIntoView(); 
+      e.scrollIntoView();
     } else if (name == "infrastructure") {
       e = <HTMLElement>document.getElementById("infrastructure");
       e.scrollIntoView();
     } else if (name == "activities") {
       e = <HTMLElement>document.getElementById("activities");
       e.scrollIntoView();
-    }       
+    }
   }
 }
